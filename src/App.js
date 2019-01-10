@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Layout from './components/Layout/Layout';
+import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
 import './App.css';
 
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
       <div className='App'>
         <Layout>
           <h1>Hello BurgerBuilder!</h1>
+          <BurgerBuilder />
         </Layout>
       </div>
     );
